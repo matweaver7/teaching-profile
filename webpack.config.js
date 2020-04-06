@@ -101,7 +101,10 @@ module.exports = {
 	resolve: {
 		extensions: ['.tsx', '.ts', '.js'],
 		alias: {
-			"@enums": path.resolve(__dirname, "src/enums")
+			"@components": path.resolve(__dirname, "src/components"),
+			"@constants": path.resolve(__dirname, "src/constants"),
+			"@enums": path.resolve(__dirname, "src/enums"),
+			"@pages": path.resolve(__dirname, "src/pages"),
 		}
 	}
 };

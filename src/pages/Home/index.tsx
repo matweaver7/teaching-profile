@@ -1,8 +1,10 @@
 import * as React from "react";
+import DefaultLayout from "@components/layout/defaultLayout";
+
 export default () => {
   return (
-    <div>
-      Home Template
-    </div>
+    <DefaultLayout>
+      <div>This is a test</div>
+    </DefaultLayout>
   );
 };
